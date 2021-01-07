@@ -11,6 +11,7 @@ func main() {
 
 	uid := uuid.New()
 	no := strings.Replace(uid.String(), "-", "", -1)
+	fmt.Println(uid.String())
 	fmt.Println(no)
 	fmt.Scanln()
 }
